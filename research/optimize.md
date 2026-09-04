@@ -33,6 +33,7 @@
 ### Tools
 - [Repomix](https://github.com/yamadashy/repomix) - Packs an entire repository into a single AI-friendly file, reporting token counts and using Tree-sitter to compress code to signatures only. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/yamadashy/repomix?style=flat-square&label=)
 - [Serena](https://github.com/oraios/serena) - An open-source (MIT) MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing: 'the IDE for your coding agent'. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oraios/serena?style=flat-square&label=)
+- [trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) - An open-source (MIT) MCP server that pre-indexes a repository into a symbol and dependency graph, so an agent queries callers, change impact, or a file outline instead of reading files to reconstruct them. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/nikolai-vysotskyi/trace-mcp?style=flat-square&label=)
 
 ### Research & Benchmarks
 - [AgentDiet - trajectory reduction ("Reducing Cost of LLM Agents with Trajectory Reduction")](https://arxiv.org/abs/2509.23586) - AgentDiet is an inference-time module that strips useless, redundant, and expired information from an agent's trajectory, without hurting performance. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)

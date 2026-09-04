@@ -1449,6 +1449,15 @@
     "super_area": "optimize"
   },
   {
+    "title": "trace-mcp",
+    "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+    "verified_on": "2026-09-01",
+    "stale_after": "2026-12-01",
+    "category": "context-engineering",
+    "kind": "oss",
+    "super_area": "optimize"
+  },
+  {
     "title": "Valyu",
     "url": "https://github.com/valyuAI/valyu-benchmarks",
     "verified_on": "2026-08-03",

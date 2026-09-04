@@ -109,6 +109,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [RULER](https://github.com/NVIDIA/RULER) - NVIDIA's RULER benchmark found that of models claiming 32K+ token context windows, only half actually maintain quality once you fill them to 32K. ![bench](https://img.shields.io/badge/bench-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/NVIDIA/RULER?style=flat-square&label=)
 - [Self-Compacting Language Model Agents](https://arxiv.org/abs/2606.23525) - This paper introduces SELFCOMPACT: instead of fixed-interval summarization, the model itself decides when and how to compress a growing agent trace. ![paper](https://img.shields.io/badge/paper-555?style=flat-square)
 - [Serena](https://github.com/oraios/serena) - An open-source (MIT) MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing: 'the IDE for your coding agent'. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/oraios/serena?style=flat-square&label=)
+- [trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp) - An open-source (MIT) MCP server that pre-indexes a repository into a symbol and dependency graph, so an agent queries callers, change impact, or a file outline instead of reading files to reconstruct them. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/nikolai-vysotskyi/trace-mcp?style=flat-square&label=)
 
 ### Cost Controls
 

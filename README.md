@@ -236,14 +236,6 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [Claude Code's 5-hour/weekly usage quotas - Anthropic has stopped publishing exact numbers](https://support.claude.com/en/articles/11049741-what-is-the-max-plan) - Anthropic stopped publishing exact Claude Code usage quotas, describing Max plans only as 5x/20x multipliers of Pro with no absolute numbers.
 - [TrueFoundry (AI Gateway - Budget Limiting)](https://www.truefoundry.com/docs/ai-gateway/budgetlimiting) - TrueFoundry is an enterprise GenAI deployment/gateway company founded by ex-Meta founders. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 
-### Energy Carbon
-
-- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
-- [EcoLogits](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
-- [Epoch AI - how much energy a query uses (the per-token energy anchor)](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI built a transparent, first-principles estimate of how much energy one LLM query costs.
-- [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
-- [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
-
 ### Policy Enforcement
 
 - [ActPlane](https://github.com/eunomia-bpf/ActPlane) - An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/eunomia-bpf/ActPlane?style=flat-square&label=)
@@ -379,6 +371,15 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [TensorZero - cross-vendor token-count divergence ("stop comparing $/M tokens")](https://www.tensorzero.com/blog/stop-comparing-price-per-million-tokens-the-hidden-llm-api-costs/) - The same input can produce 2.65x more tokens on one tokenizer than another's: Claude Opus 4-7 runs 1.57x-2.65x more tokens than GPT-5.4 on the same content.
 - [Vision-token pricing formulas across the big three](https://platform.claude.com/docs/en/build-with-claude/vision) - Anthropic, OpenAI, and Google each convert an image into billed tokens with a different formula, so no single cross-vendor image-cost number exists. (also: [OpenAI](https://developers.openai.com/api/docs/guides/images-vision) · [Google](https://ai.google.dev/gemini-api/docs/image-understanding))
 
+### Energy Carbon
+
+- [Alumet](https://github.com/alumet-dev/alumet) - A Rust measurement framework (EUPL-1.2 or later) that reads hardware energy counters through RAPL, NVML, AMD SMI and Jetson INA plugins, and attributes the energy to processes, cgroups and Kubernetes pods. ![tool: EUPL-1.2-or-later](https://img.shields.io/badge/tool-EUPL--1.2--or--later-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/alumet-dev/alumet?style=flat-square&label=)
+- [CodeCarbon](https://github.com/mlco2/codecarbon) - An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/codecarbon?style=flat-square&label=)
+- [EcoLogits](https://github.com/mlco2/ecologits) - Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware. ![tool: MPL-2.0](https://img.shields.io/badge/tool-MPL--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/mlco2/ecologits?style=flat-square&label=)
+- [Epoch AI - how much energy a query uses (the per-token energy anchor)](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) - Epoch AI built a transparent, first-principles estimate of how much energy one LLM query costs.
+- [Google - measuring the environmental impact of AI inference (provider disclosure)](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) - Google published a first-party disclosure of the energy, carbon, and water cost of a median Gemini Apps text prompt, authored by Amin Vahdat and Jeff Dean. ![report](https://img.shields.io/badge/report-555?style=flat-square)
+- [ML.ENERGY Leaderboard](https://ml.energy/blog/measurement/energy/diagnosing-inference-energy-consumption-with-the-mlenergy-leaderboard-v30/) - Version 3.0 of this leaderboard measures real GPU inference energy across 46 models x 7 tasks, finding reasoning models use roughly 25x the energy of others. ![bench](https://img.shields.io/badge/bench-555?style=flat-square)
+
 ### Harness Overhead
 
 - [Claude Code system prompts (Piebald extraction)](https://github.com/Piebald-AI/claude-code-system-prompts) - Piebald AI extracts Claude Code's full compiled prompt payload per release: 515 prompt strings and 27 tool descriptions at v2.1.212, each priced in tokens. ![data](https://img.shields.io/badge/data-555?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Piebald-AI/claude-code-system-prompts?style=flat-square&label=)
@@ -426,6 +427,7 @@ Runnable, validated Claude Code and Codex configurations and skills for token-ef
 - [Awesome-LLMOps](https://github.com/tensorchord/Awesome-LLMOps) - Tools and platforms for operating LLMs in production.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - A collection of Model Context Protocol servers.
 - [awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) - Open-source libraries to deploy, monitor, version, and scale machine learning.
+- [Green Software Landscape](https://landscape.bundesverband-green-software.de/) - A CC0 catalog of 130 green-software tools maintained by Bundesverband Green Software e.V., with AI training and inference energy subcategories.
 
 ## Footnotes
 

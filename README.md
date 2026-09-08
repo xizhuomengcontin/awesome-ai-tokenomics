@@ -70,6 +70,7 @@ Each entry ends with a kind badge: ![tool: MIT](https://img.shields.io/badge/too
 - [claude-tap](https://github.com/liaohch3/claude-tap) - A local trace viewer intercepting API traffic from 14+ coding agents, showing per-request token breakdowns: input, output, cache read, cache creation. ![tool: MIT](https://img.shields.io/badge/tool-MIT-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/liaohch3/claude-tap?style=flat-square&label=)
 - [LangSmith - Cost Tracking](https://docs.langchain.com/langsmith/cost-tracking) - LangSmith is LangChain's commercial LLM/agent observability SaaS. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Opik](https://github.com/comet-ml/opik) - Comet's open-source (Apache-2.0) LLM observability platform, with per-span USD cost estimated from token usage. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/comet-ml/opik?style=flat-square&label=)
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records coding-agent runs below the harness (no SDK) with per-exchange input/output token counts taken from the provider response, and replays the same run offline so a re-run costs nothing. ![tool: Apache-2.0](https://img.shields.io/badge/tool-Apache--2.0-blue?style=flat-square) ![last commit](https://img.shields.io/github/last-commit/Continuum-AI-Corp/OrcaReplay?style=flat-square&label=)
 
 ## Optimize
 
